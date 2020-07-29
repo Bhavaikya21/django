@@ -1,0 +1,9 @@
+{% extends "myapp/base.html" %}
+{% block title %}
+  <title>Child HTML File</title>
+{% endblock %}
+
+{% block content %}
+<h1>Welcome to child</h1>
+   <a href = "{%url 'myapp:home'%}">Home</a>
+{% endblock %}
